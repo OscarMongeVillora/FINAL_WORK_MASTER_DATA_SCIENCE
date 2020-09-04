@@ -5,15 +5,6 @@ Delivered day: 04 September 2020.
 
 **READ THE DOCUMENT "MEMORIA_TFM_OSCAR_MONGE_DATA_SCIENCE_FINAL_VERSION.pdf"**
 
-**MISSING COMMENTS OF LAST HOUR**
-
-1- I have created an extra simulation 4 on Notebook (an idea that I had last day so it's not explained in the document).
-
-2 - Updating information of last hour: The last dataset imported used in the project called formerly in the document(pdf) as "worlwide", now it has to be called as 
-"worlwide_cases" or "worldwide_deaths" depending if you want to extract the deaths or the cases series (If you puts "worlwide" you are selecting always the deaths series). It has been done due to the extra simulation.
-
-3. Futhermore, for the same dataset, you need to configure the variable list_communities as ['world'] if you want the cases or deaths for the people of all the world. If you need only to examine a specific country series you need to put the abbreviature for this country in list_communities. Example: spain --> 'list_communities' = ['ES']
-
 
 ## **Abstract**
  
@@ -24,6 +15,17 @@ In order to make predictions for Covid-19 time series, a program has developed i
 The main program uses different approaches taken of the literature as Logistic and Gompertz fitting, SIR Model, etc. Furthermore, the program can be adapted for any temporal series and it allows to configure multiple parameters for the prediction of time series. 
 
 Using that tool, we execute some simulations for different approaches to compare the performance of the ML Models and visualize some predictions.  
+
+
+**MISSING COMMENTS OF LAST HOUR**
+
+1- I have created an extra simulation 4 on Notebook (an idea that I had last day so it's not explained in the document).
+
+2 - Updating information of last hour: The last dataset imported used in the project called formerly in the document(pdf) as "worlwide", now it has to be called as 
+"worlwide_cases" or "worldwide_deaths" depending if you want to extract the deaths or the cases series (If you puts "worldwide" you are selecting always the deaths series). It has been done due to the extra simulation.
+
+3. Futhermore, for the same dataset, you need to configure the variable list_communities as ['world'] if you want the cases or deaths for the people of all the world. If you need only to examine a specific country series you need to put the abbreviature for this country in list_communities. Example: spain --> 'list_communities' = ['ES']
+
  
  
 ## **Library required for executing the program**
