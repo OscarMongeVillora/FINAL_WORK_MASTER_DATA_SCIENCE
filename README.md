@@ -1,4 +1,4 @@
-# FINAL WORK MASTER DATA_SCIENCE
+# FINAL WORK MASTER DATA_SCIENCE 
 This is the final work for the Master in Data Science of KSCHOOL.
 
 Delivered day: 04 September 2020.
@@ -6,7 +6,7 @@ Delivered day: 04 September 2020.
 READ THE DOCUMENT "MEMORIA_TFM_OSCAR_MONGE_DATA_SCIENCE_FINAL_VERSION.pdf"
 
 
-Abstract 
+Abstract
  
 The goal of this work is to compare the performance of different machine learning methods implemented in a proper way for predicting COVID-19 time series (Cases and Deaths). 
 In order to make predictions for Covid-19 time series, a program has developed integrating different modules that automatize the different steps of the process: choosing dataset of Covid-19, cleaning and preparing the data; eliminating the heteroscedasticity and trend; fitting and predicting using a machine learning method; tuning the result with Bayesian Optimization based on Time Splitting Cross Validation and obtaining different plots and metrics errors as a result. 
