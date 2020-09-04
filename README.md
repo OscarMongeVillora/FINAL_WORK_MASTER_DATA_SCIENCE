@@ -12,6 +12,7 @@ In order to make predictions for Covid-19 time series, a program has developed i
 The main program uses different approaches taken of the literature as Logistic and Gompertz fitting, SIR Model, etc. Furthermore, the program can be adapted for any temporal series and it allows to configure multiple parameters for the prediction of time series. 
 Using that tool, we execute some simulations for different approaches to compare the performance of the ML Models and visualize some predictions.  
  
-Structure
+Structure of the project
+
 The project is divided in 6 modules: Datasets, Bayes Optimization, Decompose, Models ML, Utils and Plots and Error. The input of the system are the datasets of time series of COVID-19 (Datasets module) and the config_generator.py file that allows to choose different option configurations. The output are the day predictions in the COVID-19 temporal series returned through plots and errors calculated using the Plots and Errors module.  The project runs since __main__.py calling the module main_project.py, that contains the main instructions of the project. Basically, it imports the configuration parameters, prepares the data of the time series and run the Bayes Optimization module to obtain an accurate prediction of the series. After that, it makes the instructions to plot and evaluate it in terms of error. 
  
