@@ -28,7 +28,7 @@ In order to do simulations obtaining various results for dynamic changes of the 
 
 The project is divided in 6 modules: Datasets, Bayes Optimization, Decompose, Models ML, Utils and Plots and Error. The input of the system are the datasets of time series of COVID-19 (Datasets module) and the config_generator.py file that allows to choose different option configurations. The output are the day predictions in the COVID-19 temporal series returned through plots and errors calculated using the Plots and Errors module. 
 
-![PROGRAMM STRUCTURE](Other_files/ESQUEMA_TFM2.png)
+![PROGRAMM STRUCTURE](https://github.com/OscarMongeVillora/FINAL_WORK_MASTER_DATA_SCIENCE/blob/master/Other_files/ESQUEMA_TFM2.PNG)
 
  
 ## **Library required for executing the program**
