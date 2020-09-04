@@ -17,6 +17,11 @@ The main program uses different approaches taken of the literature as Logistic a
 Using that tool, we execute some simulations for different approaches to compare the performance of the ML Models and visualize some predictions.  
  
  
+## **Library required for executing the program**
+
+Install the envinronment trough conda. Execute the __main___.py
+
+Libraries required: GPy, GPyOpt, sklearn, numpy, matplotlib, pandas, statsmodels, configparser 
 
 ## **Structure of the project and Execution**
 
@@ -30,9 +35,4 @@ The project is divided in 6 modules: Datasets, Bayes Optimization, Decompose, Mo
 
 ![PROGRAMM STRUCTURE](https://github.com/OscarMongeVillora/FINAL_WORK_MASTER_DATA_SCIENCE/blob/master/Other_files/ESQUEMA_TFM2.PNG)
 
- 
-## **Library required for executing the program**
 
-Install the envinronment trough conda. Execute the __main___.py
-
-Libraries required: GPy, GPyOpt, sklearn, numpy, matplotlib, pandas, statsmodels, configparser 
