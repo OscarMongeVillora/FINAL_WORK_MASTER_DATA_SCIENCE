@@ -18,16 +18,18 @@ Using that tool, we execute some simulations for different approaches to compare
  
  
 
-## **Structure of the project**
-
-The project is divided in 6 modules: Datasets, Bayes Optimization, Decompose, Models ML, Utils and Plots and Error. The input of the system are the datasets of time series of COVID-19 (Datasets module) and the config_generator.py file that allows to choose different option configurations. The output are the day predictions in the COVID-19 temporal series returned through plots and errors calculated using the Plots and Errors module. 
+## **Structure of the project and Execution**
 
 The project runs since __main__.py calling the module main_project.py, that contains the main instructions of the project. Basically, it imports the configuration parameters, prepares the data of the time series and run the Bayes Optimization module to obtain an accurate prediction of the series. After that, it makes the instructions to plot and evaluate it in terms of error. 
 
-![Alt text](/mnt/c/Users/Oscar/Desktop/ESQUEMA_TFM2) 
- 
- 
+The different configuration parameters can be configured manually in the config_generator.py. Also, these parameters can be configured manually through the file config.ini of the project
+
+In order to do simulations obtaining various results for dynamic changes of the configured parameters we only need to create a new script or notebook and import the main_project.py module to run it various times for different configurations.
+
+The project is divided in 6 modules: Datasets, Bayes Optimization, Decompose, Models ML, Utils and Plots and Error. The input of the system are the datasets of time series of COVID-19 (Datasets module) and the config_generator.py file that allows to choose different option configurations. The output are the day predictions in the COVID-19 temporal series returned through plots and errors calculated using the Plots and Errors module. 
+
  
 ## **Library required for executing the program**
 
-GPy, GPyOpt, sklearn, numpy, matplotlib, pandas, statsmodels, configparser 
+Install the envinronment trough conda. Execute the __main___.py
+Libraries required: GPy, GPyOpt, sklearn, numpy, matplotlib, pandas, statsmodels, configparser 
