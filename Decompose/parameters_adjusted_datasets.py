@@ -83,7 +83,7 @@ def load_parameters_adjusted(name_dataset, method_trend_name, data_clean):
             poly_order_all_com = {x:5 for x in data_clean.index}
             all_parameters_com = poly_order_all_com
 
-    elif name == 'worldwide':
+    elif (name == 'worldwide_cases') or (name == 'worldwide_deaths') or (name == 'worldwide'):
         if method_trend == 'polynomic':
             poly_order_all_com = {'world':7}
             all_parameters_com = poly_order_all_com
