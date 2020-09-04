@@ -26,6 +26,6 @@ The project runs since __main__.py calling the module main_project.py, that cont
  
  
  
-## **LIBRARY REQUIRED FOR EXECUTING THE PROGRAM**
+## **Library required for executing the program**
 
 GPy, GPyOpt, sklearn, numpy, matplotlib, pandas, statsmodels, configparser 
