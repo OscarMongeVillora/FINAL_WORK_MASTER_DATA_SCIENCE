@@ -3,7 +3,7 @@ This is the final work for the Master in Data Science of KSCHOOL.
 
 Delivered day: 04 September 2020.
 
-READ THE DOCUMENT "MEMORIA_TFM_OSCAR_MONGE_DATA_SCIENCE_FINAL_VERSION.pdf"
+**READ THE DOCUMENT "MEMORIA_TFM_OSCAR_MONGE_DATA_SCIENCE_FINAL_VERSION.pdf"**
 
 
 ## **Abstract**
@@ -20,9 +20,9 @@ Using that tool, we execute some simulations for different approaches to compare
 
 ## **Structure of the project and Execution**
 
-The project runs since __main__.py calling the module main_project.py, that contains the main instructions of the project. Basically, it imports the configuration parameters, prepares the data of the time series and run the Bayes Optimization module to obtain an accurate prediction of the series. After that, it makes the instructions to plot and evaluate it in terms of error. 
+The project runs since **__main__.py** calling the module *main_project.py*, that contains the main instructions of the project. Basically, it imports the configuration parameters, prepares the data of the time series and run the Bayes Optimization module to obtain an accurate prediction of the series. After that, it makes the instructions to plot and evaluate it in terms of error. 
 
-The different configuration parameters can be configured manually in the config_generator.py. Also, these parameters can be configured manually through the file config.ini of the project
+The different configuration parameters can be configured manually in the **config_generator.py**. Also, these parameters can be configured manually through the file **config.ini** of the project
 
 In order to do simulations obtaining various results for dynamic changes of the configured parameters we only need to create a new script or notebook and import the main_project.py module to run it various times for different configurations.
 
