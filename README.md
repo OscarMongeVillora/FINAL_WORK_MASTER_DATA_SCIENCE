@@ -24,6 +24,8 @@ The project is divided in 6 modules: Datasets, Bayes Optimization, Decompose, Mo
 
 The project runs since __main__.py calling the module main_project.py, that contains the main instructions of the project. Basically, it imports the configuration parameters, prepares the data of the time series and run the Bayes Optimization module to obtain an accurate prediction of the series. After that, it makes the instructions to plot and evaluate it in terms of error. 
  
+ 
+ 
 **LIBRARY REQUIRED FOR EXECUTING THE PROGRAM**
 
 GPy, GPyOpt, sklearn, numpy, matplotlib, pandas, statsmodels, configparser 
