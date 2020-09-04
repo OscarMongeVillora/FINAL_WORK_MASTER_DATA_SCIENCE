@@ -32,4 +32,5 @@ The project is divided in 6 modules: Datasets, Bayes Optimization, Decompose, Mo
 ## **Library required for executing the program**
 
 Install the envinronment trough conda. Execute the __main___.py
+
 Libraries required: GPy, GPyOpt, sklearn, numpy, matplotlib, pandas, statsmodels, configparser 
