@@ -17,7 +17,7 @@ The main program uses different approaches taken of the literature as Logistic a
 Using that tool, we execute some simulations for different approaches to compare the performance of the ML Models and visualize some predictions.  
 
 
-**MISSING COMMENTS OF LAST HOUR**
+## **MISSING COMMENTS OF LAST HOUR**
 
 1- I have created an extra simulation 4 on Notebook (an idea that I had last day so it's not explained in the document).
 
