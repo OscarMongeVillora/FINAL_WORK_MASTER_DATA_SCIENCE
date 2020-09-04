@@ -65,15 +65,22 @@ def import_datasets(name: str, mode = 'diff'):
         data_nac = data_nac.T
         data_clean = data_nac
 
-    elif name == 'worldwide':
+    elif (name == 'worldwide_cases') or (name == 'worldwide_deaths') or (name == 'worldwide'):
         #Cases or Deaths for each country of the world
         variable = 'initial'
         SELECT_REGION = 'world'
         data4 = pd.read_csv('Datasets/WHO-COVID-19-global-data.csv', parse_dates=['Date_reported'])
         if mode == 'diff':
-            variable = ' New_deaths'  #To select the cases, replace the variable by ' New_cases'
+            if name == 'worldwide_deaths' or name == 'worldwide':
+                variable = ' New_deaths'
+            if name == 'worldwide_cases':
+                variable = ' New_cases'
+
         if mode == 'cum':
-            variable = ' Cumulative_deaths' #To select the cases, replace the variable by ' Cumulative_cases'
+            if name == 'worldwide_deaths' or name == 'worldwide':
+                variable = ' Cumulative_deaths'
+            if name == 'worldwide_cases':
+                variable = ' Cumulative_cases'
 
         # Sum the time series for all the countries of the world, matching the dates.
         dict = {}
